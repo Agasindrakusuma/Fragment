@@ -1,0 +1,72 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="12dp"
+    android:background="@android:color/holo_blue_bright"
+    tools:context=".ProfileActivity">
+
+
+    <!-- CircleImageView untuk menampilkan gambar profil bulat -->
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/profile_image"
+        android:layout_width="200dp"
+        android:layout_height="120dp"
+        android:src="@drawable/agas">
+
+    </de.hdodenhof.circleimageview.CircleImageView>
+
+
+    <!-- TextView untuk Nama Profil -->
+    <TextView
+        android:id="@+id/profile_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="Agas Indra Kusuma"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:gravity="center" />
+
+    <TextView
+        android:id="@+id/profile_nim"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="22753040"
+        android:textSize="14sp"
+        android:gravity="center" />
+
+    <!-- TextView untuk Jurusan -->
+    <TextView
+        android:id="@+id/profile_bio"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="Manajemen Informatika"
+        android:textSize="14sp"
+        android:gravity="center" />
+
+    <!-- TextView untuk NIM -->
+
+
+    <TextView
+        android:id="@+id/profile_jurusam"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="Teknologi Informasi"
+        android:textSize="14sp"
+        android:gravity="center" />
+    <TextView
+        android:id="@+id/profile_kampus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="Politeknik Negeri Lampung"
+        android:textSize="14sp"
+        android:gravity="center" />
+</LinearLayout>
